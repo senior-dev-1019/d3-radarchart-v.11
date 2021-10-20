@@ -1,0 +1,125 @@
+.radar_chart_container{
+	width: 400px;
+	height: 400px;
+	margin-right: 20px;
+}
+
+
+.radar_chart_container1{
+	width: 400px;
+	height: 400px;
+	margin-right: 20px;
+}
+.radar_chart_body {
+	/*width: 300px;*/
+	height: 300px;
+	margin-top: 3%;
+	margin-left: 3%;
+	
+}
+.navbar {
+  overflow: hidden;
+  background-color: #E5EBDA;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.modal {
+  margin-top: 30px ;
+  /*display: block;  Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10001; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  margin-top: 30px ;
+  background-color: #fefefe;
+  padding: 20px;
+  width: 500px;
+}
+
+
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+hr{
+	width: 150%;
+  border: 3px solid red;
+}
+
+input{
+	width: 100px;
+}
+
+svg{
+		    margin-left: 50px;
+		}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+body {
+  font: 12px sans-serif;
+}
+
+svg {
+  margin: 0px auto;
+  display: block;
+}
+
+path.arc {
+  opacity: 0.9;
+  transition: opacity 0.5s;
+}
+
+path.arc:hover {
+  opacity: 0.7;
+}
+
+.axis line, .axis circle  {
+  stroke: #cccccc;
+  stroke-width: 1px
+}
+
+.axis circle {
+  fill: none;
+}
+
+.r.axis text {
+  text-anchor: end
+}
+
+.tooltip {
+  position: absolute;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  box-shadow: -3px 3px 15px #888;
+  color: white;
+  padding: 6px;
+}
